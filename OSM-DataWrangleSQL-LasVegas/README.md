@@ -26,17 +26,11 @@ Here's the file structure:
 * `data.py`: build CSV files from OSM and also parse, clean and shape data
 * `database_create.py`: create database of the CSV files
 * `query.py`: different queries about the database using SQL
-* `OpenStreetMap.md`: Explanation document
+* `OpenStreetMap.md`: REPORT
 * `tags.py`: count multiple patterns in the tags
 * `sample.py`: takes an `.osm` file as an input and outputs a k-reduced version of it. k is a parameter that can be changed in the code.
 * `schema.py`: schema of how the data will be exported from the `.osm` file to the database.
-
-
-
-
-
-
-
+* `schema.py`: uses iterative parsing to process the map file and find out how many of each tag there are.
 
 
 
