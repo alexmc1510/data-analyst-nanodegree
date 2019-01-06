@@ -152,6 +152,7 @@ Functions used:
 •	street_name: Check whether the attribute k = “addr:street”. 
 •	audit: Returns a list which match the previous two function conditions. 
 •	update_name: Updates the old street name with a new one.
+•	audit_postal_code: Checks if the postal code is in the "Las Vegas" zipcode list.
 
 This update is done by the code in the `audit.py` file.
 
